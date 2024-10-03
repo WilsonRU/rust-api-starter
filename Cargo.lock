@@ -1229,7 +1229,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "rust-api-stater"
+name = "rust-api-starter"
 version = "0.1.0"
 dependencies = [
  "bcrypt",
