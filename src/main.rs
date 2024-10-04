@@ -29,7 +29,7 @@ fn rocket() -> _ {
             core::rest::post_register::action
         ])
         .mount("/user", routes![
-            user::rest::get_me::action
+            user::rest::put_update_name::action
         ])
         .register("/", catchers![internal_error, businesslogic])
         .configure(rocket::Config {
